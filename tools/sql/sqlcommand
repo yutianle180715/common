@@ -1,0 +1,8 @@
+1. Create a table where name colums is unique.
+create table mytable(_id INTEGER primary key autoincrement , name TEXT UNIQUE not null);
+
+2. insert new line
+insert into mytable(status) values(3); /*only init status column as 3*/
+
+3. update line
+update mytable set path='new path' where [condition];
