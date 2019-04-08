@@ -6,3 +6,6 @@ insert into mytable(status) values(3); /*only init status column as 3*/
 
 3. update line
 update mytable set path='new path' where [condition];
+
+4. delete from mytable where [condition]
+
