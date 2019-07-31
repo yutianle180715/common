@@ -9,3 +9,5 @@ update mytable set path='new path' where [condition];
 
 4. delete from mytable where [condition]
 
+5. DESC:from big to small   ASC:from small to big (default)
+select * from combined_channel where CAST(display_number as Integer)<10 order by CAST(display_number as Integer) DESC;
